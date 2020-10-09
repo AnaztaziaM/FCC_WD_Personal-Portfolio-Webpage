@@ -1,0 +1,238 @@
+/* Styling the body. */
+body{background-color:#FFEFD5;
+    margin:0px;
+    padding:0px;
+    color:#783937FF;}
+/* Styling the body end. */
+
+
+/* Styling the headline end. */
+#navbar{
+    background-color:#F1AC88FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;  
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0px;
+    z-index:1;
+    flex-wrap:wrap;
+    width:100%;}
+
+#head-name{
+  font-size:40px;
+  font-family:'Dancing Script', cursive;
+  color: #783937FF;
+  margin-left:40px;}
+
+
+/* Styling the navigation bottoms */
+#navbar-buttoms{
+  font-size: 30px;
+  margin-right: 70px;}
+
+#navbar-buttoms a:hover {
+  border-bottom: 3px solid #783937FF;}
+
+#navbar-buttoms a.active {
+  border-bottom: 3px solid #783937FF;}
+
+#navbar-buttoms a{
+  color:#783937FF;
+  text-decoration: none;}
+
+.nav-link{
+  padding:10px 10px 10px 10px;}
+/* Styling the navigation bottoms end */
+/* Styling the headline end. */
+
+
+
+/* Styling the texts. */
+h1{
+  text-align:center;
+  font-size:70px;}
+#sub-head{
+  text-align:center;
+  font-size:50px;}
+h2{
+  font-size: 40px;
+  text-align:center;}
+h3{
+  font-size: 35px;
+  text-align:center;}
+
+
+#different-element{
+  font-size:120px;
+  color:#FC766AFF;}
+
+#html-css-head, #python-head{
+  text-align:center;
+  color:#FC766AFF;
+  border: 5px solid #F1AC88FF;
+  margin-left:30%;
+  margin-right:30%;}
+
+#python-head-one,#html-css-head{
+  font-size: 60px;}
+
+#python-head-two{
+  font-size: 35px;}
+/* Styling the texts end. */
+
+
+/* Styling the welcome section. */
+#welcome-section{
+  background-image: url("https://www.picawall.com/wp-content/uploads/2018/04/11242577.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 50px;
+  height: 100vh;
+  margin:0px;
+  padding:0px;
+  color:#783937FF;}
+/* Styling the welcome section end. */
+
+
+/* Styling the main sections background. */
+#html-css-box,#python-box, #links{
+  background-image: url("https://www.picawall.com/wp-content/uploads/2018/04/11242577.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom:50px;
+  margin-top:50px;}
+/* Styling the main sections background end. */
+
+
+/* Styling the project sections headline. */
+#project-section-title{
+  background-image: url("https://www.picawall.com/wp-content/uploads/2018/04/11242577.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border:5px solid #F1AC88FF;
+  border-radius:50%;
+  margin-bottom:50px;
+  margin-top:50px;
+  margin-left:30%;
+  margin-right:30%;}
+/* Styling the project sections headline end. */
+
+
+
+/* Styling the project links boxes. */
+.project-tile{
+  text-align:center;
+  background-color:white;
+  padding:5px 10px 5px 10px;
+  margin-bottom:60px;
+  margin-top:60px;}
+
+.project-tile a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;}
+/* Styling the project links boxes end. */
+
+
+
+
+
+/* Web design section */
+
+#html-css-works{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left:60px;
+    flex-wrap:wrap;}
+/* Web design section end */
+
+
+/* Python section */
+#python-project{
+  text-align:center;
+  margin-bottom:60px;
+  margin-top:60px;
+  max-width:150px;
+  background-color:#783937FF;}
+
+#python-project a,#python-project p{
+    color: #F1AC88FF;
+    font-size: 20px;
+    min-height:60px;
+    text-decoration: none;}
+
+#python-img{max-width:150px;}
+
+
+#python-works > * + * {
+  margin-left: 150px;}
+
+#python-works{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin:50px;
+    flex-wrap:wrap;
+    padding: 0;}
+
+/* Python section end */
+
+
+
+
+/* Styling the contact section */
+#logo{ 
+    max-width:150px;
+    padding: 10px;
+    border: 10px outset #F1AC88FF;
+    border-radius: 20px;}
+
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;  
+    flex-wrap:wrap;
+    margin-left:20%;
+    margin-right:20%;}
+/* Styling the contact section end */
+
+
+/* Media query */
+@media screen and (max-width: 800px) {
+  #navbar{
+    font-size: 20px;}
+  h1{
+  font-size:35px;}
+  #sub-head{
+    font-size:25px;}
+  h2{
+    font-size: 20px;}
+  h3{
+    font-size: 25px;}
+
+  #different-element{
+    font-size:60px;}
+  
+  #html-css-head, #python-head{
+  font-size:30px;}
+
+ #project-section-title,#html-css-box,#python-box, #links{
+  margin:0;}
+  
+  #codepen-img{max-width:150px;}
+
+}
+/* Media query end.*/
